@@ -25,11 +25,17 @@ To achieve the above, TinyTroupe provides various classes of mechanisms, reviewe
 
 ### Agents: `TinyPerson`
 
+#### Mental faculties
+
+#### Memory mechanisms
+
 ### Environments: `TinyWorld`
 
-### Factories
+### Tools: `TinyTool`
 
-### Validation
+### Factories: `TinyPersonFactory`
+
+### Validation: `TinyPersonChecker`
 
 ### Information extraction
 
