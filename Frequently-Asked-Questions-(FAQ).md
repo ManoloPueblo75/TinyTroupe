@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+Some likely questions you might have. 
 
 ## Q: How does TinyTroupe differs from other LLM-based multiagent tools?
 
