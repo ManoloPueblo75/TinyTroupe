@@ -18,6 +18,10 @@ First of all, simulations can be powerful **imagination enhancers** -- for insta
 
 Secondly, *we might* actually succeed in simulating human-like behavior, and if so that would be a significant scientific achievement. Hence, TinyTroupe is also a research platform, in which we and others can try new approaches to this end, for example trying new prompts, memory mechanisms, or other cognitive structures. Further, how to actually validate simulations against real behavior is itself an interesting research goal.
 
+## Q: Do you have some concrete examples?
+
+Yes! Please check out the [examples/](https://github.com/microsoft/TinyTroupe/tree/main/examples) folder in the repository, where you'll find various Jupyter notebooks and other demonstration artifacts.
+
 ## Q: Why should I use TinyTroupe instead of directly prompting an LLM?
 
 While you could provide a detailed description of what you want to an LLM, it would be a long manual task. TinyTroupe makes it quicker and more convenient, for instance, to:
