@@ -10,6 +10,7 @@ In this section we collect papers, projects, links, and other artifacts that mig
 # Collections of resources 
 
 [GitHub - hyp1231/awesome-llm-powered-agent: Awesome things about LLM-powered agents. Papers / Repos / Blogs / ...](https://github.com/hyp1231/awesome-llm-powered-agent) 
+
 [Awesome LLM-based Multi-Agents Papers](https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers)
 
 # Popular press 
