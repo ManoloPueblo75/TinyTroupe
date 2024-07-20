@@ -4,6 +4,8 @@
 
 To our knowledge, most, if not all, of currently used LLM-based multiagent tools are primarily meant for the creation of **applications** or **assistants**. That is to say, the multiagent form is merely a way to get to some final result, and whether those agents are actually human-like is not crucial. TinyTroupe, on the other hand, is meant primarily for the simulation of social systems, in which the agents are the main object of interest, and the core aim is to **understand** some situation of interest, instead of implementing some final **application**. Naturally, a system that helps one understands people is itself an application, but of a very special kind.
 
+You can read mora about it on [Principles and mechanisms](https://github.com/microsoft/TinyTroupe/wiki/Principles-and-mechanisms).
+
 ## Q: Can I directly use the simulation outputs for serious things?
 
 **No!** This is a highly experimental project, and as such any of its outputs must be fully validated by a human before actually being used for anything that might have effects on the real world.
