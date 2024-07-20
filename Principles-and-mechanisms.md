@@ -41,7 +41,7 @@ To achieve the above, TinyTroupe provides various classes of mechanisms, reviewe
 
 ### Enrichment
 
-### Story telling
+### Story telling: `TinyStory`
 
 
 
