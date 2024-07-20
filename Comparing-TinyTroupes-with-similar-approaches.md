@@ -3,6 +3,7 @@ While there is a growing number of LLM-based multiagent tools, TinyTroupe differ
 
 | Aspect         | TinyTroupe                                   | Autogen                                      | Crew AI
 |----------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
+| **Programmatic style** |  |  | |
 | **Persona specification** | Highly detailed | - | Short background story|
 | **Agent validation** | :heavy_check_mark: | | |
 | **Agents profiling** | :heavy_check_mark: | | |
