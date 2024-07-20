@@ -3,4 +3,4 @@ While there is a growing number of LLM-based multiagent tools, TinyTroupe differ
 
 | Aspect         | TinyTroupe                                   | Autogen                                      | Crew AI
 |----------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
-| Persona specification | Highly detailed | - | Short background story
+| **Persona specification** | Highly detailed | - | Short background story
