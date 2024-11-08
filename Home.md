@@ -1,10 +1,11 @@
 Welcome to the TinyTroupe wiki!
 
-The TinyTroupe Python libraries leverages GPT-4 to simulate users under various conditions, with highly customizable personalities, thus allowing the automation many tasks that had to be done manually before - in software engineering, but also in product management and marketing, among other fields. This allow us to investigate a wide range of realistic interactions and consumer types. Here are some examples: 
+*TinyTroupe* is an experimental Python library that allows the **simulation** of people with specific personalities, interests, and goals. These artificial agents - `TinyPerson`s - can listen to us and one another, reply back, and go about their lives in simulated `TinyWorld` environments. This is achieved by leveraging the power of Large Language Models (LLMs), notably GPT-4, to generate realistic simulated behavior. This allow us to investigate a wide range of **convincing interactions** and **consumer types**, with **highly customizable personas**, under **conditions of our choosing**. The focus is thus on *understanding* human behavior and not on directly *supporting it* (like, say, AI assistants do) -- this results in, among other things, specialized mechanisms that make sense only in a simulation setting. Further, unlike other *game-like* LLM-based simulation approaches, TinyTroupe aims at enlightening productivity and business scenarios, thereby contributing to more successful projects and products. Here are some application ideas to **enhance human imagination**:
 
-  - TinyTroupe can evaluate Bing Ads offline with a simulated audience before spending money on them! 
-  - TinyTroupe can provide test input to systems and then evaluate whether the outputs match the desired results. 
-  - TinyTroupe can read project proposals and give feedback from the perspective of specific personas (e.g., physicians, lawyers, and knowledge workers in general). 
-  - TinyTroupe can put in place of focus groups and deliver great product feedback at a fraction of the cost! 
-  - TinyTroupe can chat with our chatbots/copilots and evaluate their quality too! 
-  - TinyTroupe can generate realistic synthetic data that can be later used to train models or be subject to opportunity analyses.
+  - **Advertisement:** TinyTroupe can **evaluate digital ads (e.g., Bing Ads)** offline with a simulated audience before spending money on them!
+  - **Software Testing:** TinyTroupe can **provide test input** to systems (e.g., search engines, chatbots or copilots) and then **evaluate the results**.
+  - **Training and exploratory data:** TinyTroupe can generate realistic **synthetic data** that can be later used to train models or be subject to opportunity analyses.
+  - **Product and project management:** TinyTroupe can **read project or product proposals** and **give feedback** from the perspective of **specific personas** (e.g., physicians, lawyers, and knowledge workers in general).
+  - **Brainstorming:** TinyTroupe can simulate **focus groups** and deliver great product feedback at a fraction of the cost!
+
+In all of the above, and many others, we hope users can **gain insights** about their domain of interest, and thus make better decisions. 
