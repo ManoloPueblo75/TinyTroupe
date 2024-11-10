@@ -5,6 +5,7 @@ Recently, we have seen LLMs used to simulate people (such as [this](https://gith
   3. **Persona-based**: allows detailed specification of personas: age, occupation, skills, tastes, opinions, etc.
   4. **Multiagent**: allows multiagent interaction under well-defined environmental constraints.
   5. **Utilities-heavy**: provides many mechanisms to facilitate specifications, simulations, extractions, reports, validations, etc. This is one area in which dealing with *simulations* differs significantly from *assistance* tools.
+  6. **Experiment-oriented**: simulations are defined, run, analyzed and refined by an *experimenter* iteratively; suitable experimentation tools are thus provided. *See one of our [previous paper](https://www.microsoft.com/en-us/research/publication/the-case-for-experiment-oriented-computing/) for more on this.*
 
 ## Assistants vs. Simulators
 
@@ -25,25 +26,23 @@ To achieve the above, TinyTroupe provides various classes of mechanisms, reviewe
 
 ### Agents: `TinyPerson`
 
-#### Mental faculties
+#### Mental faculties: `Faculty`
 
-#### Memory mechanisms
+#### Memory mechanisms: `Memory`, `EpisodicMemory`, `SemanticMemory`
+
+#### Tools: `TinyTool`
 
 ### Environments: `TinyWorld`
 
-### Tools: `TinyTool`
-
 ### Factories: `TinyPersonFactory`
 
-### Validation: `TinyPersonChecker`
-
-### Information extraction
-
-### Enrichment
+### Validation: `TinyPersonValidation`
 
 ### Story telling: `TinyStory`
 
+### Information extraction: `TinyResultsExtractor`, `TinyResultsReducer`
 
+### Enrichment: `TinyEnricher`
 
 ### Caching
 Calling LLM APIs can be expensive, thus caching strategies are important to help reduce that cost.
