@@ -5,24 +5,26 @@ LLM-based agents and multiagent systems are becoming popular ways of structuring
 | Aspect         | TinyTroupe                                   | [Autogen](https://microsoft.github.io/autogen)                                      | [Crew AI](https://docs.crewai.com/)
 |----------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
 | **Programmatic** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **Agent persona** | :heavy_check_mark: Highly detailed | :heavy_check_mark: Short background story | :heavy_check_mark: Short background story |
+| **Agent persona** | :heavy_check_mark: Highly detailed | :heavy_check_mark: Short system message | :heavy_check_mark: Short background story |
+| **Composable cognitive capabilities** | :heavy_check_mark: mental faculties via `Faculty`| :x: | :x: |
+| **Fine-grained cognitive control** | :heavy_check_mark: `TinyAgent` methods like `.think()`, `.internalize_goal()`, etc. | :x: | :x: |
 | **Agent population sampling** | :heavy_check_mark: `TinyPersonFactory` | :x: | :x: |
-| **Agent validation** | :heavy_check_mark: `TinyPersonValidation` | :x: | :x: |
+| **Agent validation** | :heavy_check_mark: `TinyPersonValidation` | :x: | :x: | 
 | **Environments** | :heavy_check_mark: `TinyWorld`| :heavy_check_mark: Teams | :heavy_check_mark: Crews |
 | **Message or interaction protocols** |:x: | :heavy_check_mark: | :heavy_check_mark: Processes |
-| **Tasks** |:x: | :heavy_check_mark: | :x: |
+| **Explicit tasks** |:x: | :heavy_check_mark: | :x: |
 | **Agent persistence** | :heavy_check_mark: JSON specifications | :x: | :heavy_check_mark: JSON specifications; pickle |
 | **Simulated tools** | :heavy_check_mark: e.g., `TinyWordProcessor` | :x: | :x: |
 | **Real-world tools** | :x: (not *yet*) | :heavy_check_mark: | :heavy_check_mark: |
-| **Simulation-optimized caching** | :heavy_check_mark: | :x: | :x: |
 | **Code execution** | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | **Simulated time** | :heavy_check_mark: (e.g., granularity of minutes, hours, days, etc.)| :x: | :x: |
 | **Simulation steering** | :heavy_check_mark: story-telling via `TinyStory` | :x: | :x: |
 | **Human input** | :heavy_check_mark:| :heavy_check_mark:| :heavy_check_mark:|
 | **Grounding data support** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | **Structured information extraction** | `TinyResultsExtractor` and `TinyResultsReducer` | :x: | :x: |
-| **Automatic synthtetic data exports** (e.g., Word files   ) | `TinyArtifactExporter` | :x: | :x: |
+| **Synthtetic data exports** (e.g., Word files) | :heavy_check_mark: `TinyArtifactExporter` | :x: | :heavy_check_mark: Pydantic models |
 | **Content enrichment** | :heavy_check_mark: `TinyEnricher` | :x: | :x: |
+| **Simulation-optimized caching** | :heavy_check_mark: | :x: | :x: |
 
 As the field matures and the boundaries between simulation and problem-solving/assistive AI blur, it is possible -- maybe probable -- that these two overall stances will converge over time (e.g., via common higher-level abstractions). We hope to both learn from others and contribute original elements to this convergence.
 
