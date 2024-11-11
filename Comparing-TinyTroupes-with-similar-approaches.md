@@ -9,7 +9,7 @@ LLM-based agents and multiagent systems are becoming popular ways of structuring
 | **Composable cognitive capabilities** | :heavy_check_mark: mental faculties via `Faculty`| :x: | :x: |
 | **Fine-grained cognitive control** | :heavy_check_mark: `TinyAgent` methods like `.think()`, `.internalize_goal()`, etc. | :x: | :x: |
 | **Agent population sampling** | :heavy_check_mark: `TinyPersonFactory` | :x: | :x: |
-| **Agent validation** | :heavy_check_mark: `TinyPersonValidation` | :x: | :x: | 
+| **Agent validation** | :heavy_check_mark: `TinyPersonValidator` | :x: | :x: | 
 | **Environments** | :heavy_check_mark: `TinyWorld`| :heavy_check_mark: Teams | :heavy_check_mark: Crews |
 | **Message or interaction protocols** |:x: | :heavy_check_mark: | :heavy_check_mark: Processes |
 | **Explicit tasks** |:x: | :heavy_check_mark: | :x: |
