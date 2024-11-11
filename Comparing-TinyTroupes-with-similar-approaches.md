@@ -21,7 +21,7 @@ LLM-based agents and multiagent systems are becoming popular ways of structuring
 | **Simulation steering** | :heavy_check_mark: story-telling via `TinyStory` | :x: | :x: |
 | **Human input** | :heavy_check_mark:| :heavy_check_mark:| :heavy_check_mark:|
 | **Grounding data support** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **Structured information extraction** | `ResultsExtractor` and `ResultsReducer` | :x: | :x: |
+| **Structured information extraction** | :heavy_check_mark: `ResultsExtractor` and `ResultsReducer` | :x: | :x: |
 | **Synthtetic data exports** (e.g., Word files) | :heavy_check_mark: `ArtifactExporter` | :x: | :heavy_check_mark: Pydantic models |
 | **Content enrichment** | :heavy_check_mark: `TinyEnricher` | :x: | :x: |
 | **Simulation-optimized caching** | :heavy_check_mark: | :x: | :x: |
