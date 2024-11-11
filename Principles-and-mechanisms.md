@@ -26,7 +26,7 @@ To achieve the above, TinyTroupe provides various classes of mechanisms, reviewe
 
 ### Agents: `TinyPerson`
 
-#### Mental faculties: `Faculty`
+#### Mental faculties: `TinyMentalFaculty`
 
 #### Memory mechanisms: `Memory`, `EpisodicMemory`, `SemanticMemory`
 
@@ -36,11 +36,11 @@ To achieve the above, TinyTroupe provides various classes of mechanisms, reviewe
 
 ### Factories: `TinyPersonFactory`
 
-### Validation: `TinyPersonValidation`
+### Validation: `TinyPersonValidator`
 
 ### Story telling: `TinyStory`
 
-### Information extraction: `TinyResultsExtractor`, `TinyResultsReducer`
+### Information extraction: `ResultsExtractor`, `ResultsReducer`
 
 ### Enrichment: `TinyEnricher`
 
